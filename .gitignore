@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+
+# IDE / editor files
+.metadata/
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Java / JVM
+*.class
+*.log
+hs_err_pid*
+
+# Maven
+**/target/
+
+# Gradle
+**/build/
+.gradle/
+
+# Node / frontend
+**/node_modules/
+**/dist/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
